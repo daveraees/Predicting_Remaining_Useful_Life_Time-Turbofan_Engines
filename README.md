@@ -61,7 +61,7 @@ Since the data contained exponential evolution of an failure, exponential fit ha
 
 ![Correlation between the ground truth (acrual RUL) value on x-axis and predicted RUL value on the y-axis when using fitting of exponential evolution.](models/exponential_test_fit_FD001.png)
 
-dataset: FD001, model: exponential,		RMSE = 83.7 cycles, Rsquared = 0.058
+
 
 ### The Recursive Neural Networks (RNNs)
 RNN variants were tested: Long-Short Time Memory (LSTM) and Gated Recursive Unit (GRU).
@@ -71,12 +71,12 @@ The GRU type of RNN was selected and trained with all the training data in a giv
 ![Correlation between the ground truth (acrual RUL) value on x-axis and predicted RUL value on the y-axis when using the RNN model.](models/GRU25_test_fit_FD001.png)
 
 _Table: Evaluation of the results:_
-dataset: FD001, model: exponential, 		RMSE = 82.2 cycles, Rsquared = -2.9171
-dataset: FD001, model: GRU25win31_fully, 	RMSE = 54.3 cycles, Rsquared = -0.7102
-dataset: FD002, model: GRU25win21_fully, 	RMSE = 76.6 cycles, Rsquared = -1.0273
-dataset: FD003, model: exponential, 	 	RMSE = 66.9 cycles, Rsquared = -1.6144
-dataset: FD003, model: GRU25win30_fully, 	RMSE = 35.7 cycles, Rsquared = 0.2555
-dataset: FD004, model: GRU25win19_fully, 	RMSE = 61.8 cycles, Rsquared = -0.2866
+* dataset: FD001, model: exponential, 		RMSE = 82.2 cycles, Rsquared = -2.9171
+* dataset: FD001, model: GRU25win31_fully, 	RMSE = 54.3 cycles, Rsquared = -0.7102
+* dataset: FD002, model: GRU25win21_fully, 	RMSE = 76.6 cycles, Rsquared = -1.0273
+* dataset: FD003, model: exponential, 	 	RMSE = 66.9 cycles, Rsquared = -1.6144
+* dataset: FD003, model: GRU25win30_fully, 	RMSE = 35.7 cycles, Rsquared = 0.2555
+* dataset: FD004, model: GRU25win19_fully, 	RMSE = 61.8 cycles, Rsquared = -0.2866
 
 
 ## Classification of the individual time traces within the datasets
