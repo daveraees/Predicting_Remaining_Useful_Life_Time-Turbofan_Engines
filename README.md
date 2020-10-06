@@ -57,18 +57,18 @@ The operational settings information was left as-received and merged with the tr
 ## Models
 
 ### The exponential fit
-Since the data contained exponential evolution of an failure, exponential fit has proven as functional model, especially in the simplest data set FD001: 
+Since the data contained exponential evolution of an failure, exponential fit has proven as functional model, especially in the data set FD003: 
 
-![Correlation between the ground truth (acrual RUL) value on x-axis and predicted RUL value on the y-axis when using fitting of exponential evolution.](models/exponential_test_fit_FD001.png)
+![Correlation between the ground truth (acrual RUL) value on x-axis and predicted RUL value on the y-axis when using fitting of exponential evolution.](models/exponential_test_fit_FD003.png)
 
 
 
 ### The Recursive Neural Networks (RNNs)
 RNN variants were tested: Long-Short Time Memory (LSTM) and Gated Recursive Unit (GRU).
 
-The GRU type of RNN was selected and trained with all the training data in a given dataset. The example test result for FD001 dataset:
+The GRU type of RNN was selected and trained with all the training data in a given dataset. The example test result for FD003 dataset:
 
-![Correlation between the ground truth (acrual RUL) value on x-axis and predicted RUL value on the y-axis when using the RNN model.](models/GRU25_test_fit_FD001.png)
+![Correlation between the ground truth (acrual RUL) value on x-axis and predicted RUL value on the y-axis when using the RNN model.](models/GRU25_test_fit_FD003.png)
 
 _Table: Evaluation of the results:_
 * dataset: FD001, model: exponential, 		RMSE = 82.2 cycles, Rsquared = -2.9171
