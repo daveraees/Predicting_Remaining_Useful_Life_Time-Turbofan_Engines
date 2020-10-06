@@ -71,12 +71,12 @@ The GRU type of RNN was selected and trained with all the training data in a giv
 ![Correlation between the ground truth (acrual RUL) value on x-axis and predicted RUL value on the y-axis when using the RNN model.](models/GRU25_test_fit_FD001.png)
 
 _Table: Evaluation of the results:_
-* FD001, model: exponential,		RMSE = 83.7 cycles, Rsquared = 0.058 
-* FD001, model: GRU,	RMSE = 36.5 cycles, Rsquared = 0.821 
-* FD002, model: GRU,	RMSE = 47.5 cycles, Rsquared = 0.762 
-* FD003, model: exponential, 		RMSE = 66.9 cycles, Rsquared = 0.394 
-* FD003, model: GRU, 	RMSE = 48.2 cycles, Rsquared = 0.685 
-* FD004, model: GRU, 	RMSE = 53.5 cycles, Rsquared = 0.727 
+dataset: FD001, model: exponential, 		RMSE = 82.2 cycles, Rsquared = -2.9171
+dataset: FD001, model: GRU25win31_fully, 	RMSE = 54.3 cycles, Rsquared = -0.7102
+dataset: FD002, model: GRU25win21_fully, 	RMSE = 76.6 cycles, Rsquared = -1.0273
+dataset: FD003, model: exponential, 	 	RMSE = 66.9 cycles, Rsquared = -1.6144
+dataset: FD003, model: GRU25win30_fully, 	RMSE = 35.7 cycles, Rsquared = 0.2555
+dataset: FD004, model: GRU25win19_fully, 	RMSE = 61.8 cycles, Rsquared = -0.2866
 
 
 ## Classification of the individual time traces within the datasets
